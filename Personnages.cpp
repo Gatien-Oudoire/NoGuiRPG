@@ -5,8 +5,12 @@ using namespace std;
 
 Entite::Entite() : c_vie(100), c_att(1), c_def(1)
 {
+    
 }
-Entite::Entite(int vie, int att, int def, std::string nom, std::string classe) : c_vie(vie), c_att(att), c_def(def), c_nom(nom), c_classe(classe) {}
+Entite::Entite(int vie, int att, int def, std::string nom, std::string classe) : c_vie(vie), c_att(att), c_def(def), c_nom(nom), c_classe(classe) 
+{
+    
+}
 Entite::~Entite()
 {
     cout << "Suppresion du personnage de la RAM" << endl;
